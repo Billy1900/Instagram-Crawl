@@ -40,13 +40,8 @@ parser.add_argument(
 - hashtag: get all the posts' information of tag. It takes much longer to get data if the post number is over about 1000 since Instagram has set up the rate limit for data request
 
 Example
-<pre>
-python main.py posts -u cal_foodie -n 100 -o ./output
-python main.py posts_full -u cal_foodie -n 100 -o ./output
-python main.py profile -u cal_foodie -o ./output
-python main.py profile_script -u cal_foodie -o ./output
-python main.py hashtag -t taiwan -o ./output
-The default number for fetching posts via hashtag is 100.
-</pre>
+```shell
+python main.py --mode posts -u cal_foodie -n 100 -o ./output
+```
 
 Print the result to the console if not specifying the output path of post `-o, --output`.
