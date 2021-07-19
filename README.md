@@ -12,10 +12,10 @@ And then make your chromedriver verified doing the following steps:
   - Execute `xattr -d com.apple.quarantine chromedriver`
 
 Example:
-<pre>
+```shell
 $ cd $(Pkg_Path)/Crawl/bin 
 $ xattr -d com.apple.quarantine chromedriver
-</pre>
+```
 
 ## 1.2 Login Information complement
 Due to the limitation, you have to put your user information in `Crawl/UserInfo` file including `username` and `password`.
@@ -27,11 +27,11 @@ The rest package requirements are written in the `requirement.txt` file.
 This program can be used to get Instagram posts/profile/hashtag data without using Instagram API.
 
 There are some arguments in `main.py` you can choose.
-<pre>
+```python
 parser.add_argument(
         "--mode", type=str, default="hashtag", help="options: [posts, posts_full, profile, profile_script, hashtag]"
     )
-</pre>
+```
 
 - posts: to get url, caption, first photo for each post.
 - posts_full: you will get url, caption, all photos, time, comments, number of likes and views for each post.
