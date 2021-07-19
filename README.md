@@ -41,7 +41,7 @@ parser.add_argument(
 
 Example
 ```shell
-python main.py --mode posts -u cal_foodie -n 100 -o ./output
+python main.py --mode posts --username cal_foodie --number 1000 --output output/cal_foodie.json
 ```
 
 Print the result to the console if not specifying the output path of post `-o, --output`.
