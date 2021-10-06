@@ -50,3 +50,4 @@ Print the result to the console if not specifying the output path of post `-o, -
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl) is a command-line program to download videos from YouTube.com and a few more sites. It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific.
 - [Annie](https://github.com/iawia002/annie) is a fast, simple and clean video downloader built with Go.
 - [Geziyor](https://github.com/geziyor/geziyor): Geziyor is a blazing fast web crawling and web scraping framework. It can be used to crawl websites and extract structured data from them. Geziyor is useful for a wide range of purposes such as data mining, monitoring and automated testing.
+- [Crawlab](https://github.com/crawlab-team/crawlab): Golang-based distributed web crawler management platform, supporting various languages including Python, NodeJS, Go, Java, PHP and various web crawler frameworks including Scrapy, Puppeteer, Selenium.
