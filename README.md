@@ -45,3 +45,6 @@ python main.py --mode posts --username cal_foodie --number 1000 --output output/
 ```
 
 Print the result to the console if not specifying the output path of post `-o, --output`.
+
+# 3. Supplementary
+- [youtube-dl](https://github.com/ytdl-org/youtube-dl) is a command-line program to download videos from YouTube.com and a few more sites. It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific.
