@@ -48,3 +48,4 @@ Print the result to the console if not specifying the output path of post `-o, -
 
 # 3. Supplementary
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl) is a command-line program to download videos from YouTube.com and a few more sites. It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific.
+- [Annie](https://github.com/iawia002/annie) is a fast, simple and clean video downloader built with Go.
